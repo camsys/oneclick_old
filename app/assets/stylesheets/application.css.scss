@@ -1,12 +1,11 @@
 // See https://github.com/maxim/bootswatch-rails#usage
 //
 // First import bootswatch theme variables
-@import "bootswatch/readable/variables";
+@import "bootswatch/spacelab/variables";
 
 // Then bootstrap itself
 @import "bootstrap";
 
-// TODO Remove this?
 // Bootstrap body padding for fixed navbar
 body { padding-top: 60px; }
 
@@ -14,7 +13,7 @@ body { padding-top: 60px; }
 @import "bootstrap-responsive";
 
 // And finally bootswatch style itself
-@import "bootswatch/readable/bootswatch";
+@import "bootswatch/spacelab/bootswatch";
 
 // Whatever application styles you have go last
 @import "base";

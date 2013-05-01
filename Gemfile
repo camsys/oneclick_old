@@ -26,6 +26,7 @@ end
 gem 'jquery-rails'
 gem 'haml'
 gem 'simple_form'
+gem 'rails_bootstrap_navbar'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -34,10 +35,14 @@ gem 'simple_form'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-gem 'unicorn'
+gem 'unicorn-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'html2haml'
+end

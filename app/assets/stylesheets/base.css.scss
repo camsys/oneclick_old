@@ -1,0 +1,19 @@
+body {
+  @extend .container;
+}
+
+.content {
+  @include makeRow();
+}
+
+.content .main {
+  @include makeColumn(8);
+}
+
+.content .sidebar {
+  @include makeColumn(4, 2);
+}
+
+.content .home {
+  @include makeColumn(12);
+}
