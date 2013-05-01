@@ -12,7 +12,10 @@ gem 'pg'
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
+  # TODO Not sure if this has to be elsewhere than :assets
+  gem 'bootstrap-sass', '~> 2.3.1.0'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'bootswatch-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -21,6 +24,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'haml'
+gem 'simple_form'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -29,7 +34,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
