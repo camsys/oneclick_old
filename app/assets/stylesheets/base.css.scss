@@ -17,3 +17,35 @@ body {
 .content .home {
   @include makeColumn(12);
 }
+
+.actionscontainer {
+  @include makeRow();
+}
+
+.actionscontainer > div {
+  @extend .span6;
+  @extend .offset3;
+}
+
+.actionscontainer ul {
+  @extend .thumbnails;
+}
+
+.actionscontainer li {
+  @extend .span3;
+}
+
+.actionscontainer li .action {
+  @extend .thumbnail;
+  cursor: pointer;
+  overflow: auto;
+  h3 {
+    line-height: 27px;
+    margin-left: 105px;
+    margin-top: 0px;
+  }
+  img {
+    float: left;
+  }
+}
+
