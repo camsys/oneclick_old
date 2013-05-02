@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/home.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oneclick.iml" afterPath="$PROJECT_DIR$/.idea/oneclick.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +11,7 @@
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442177623" ignored="false" />
     <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367438913713" ignored="false" />
     <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441775752" ignored="false" />
-    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367530906977" ignored="false" />
+    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367532251544" ignored="false" />
     <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442012114" ignored="false" />
     <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442746083" ignored="false" />
     <file path="/pages_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441686475" ignored="false" />
@@ -71,7 +66,7 @@
       <file leaf-file-name="base.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="20" selection-start="558" selection-end="558" vertical-scroll-proportion="0.71428573">
+            <state line="46" column="21" selection-start="620" selection-end="620" vertical-scroll-proportion="0.7641196">
               <folding />
             </state>
           </provider>
@@ -724,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="20" selection-start="558" selection-end="558" vertical-scroll-proportion="0.71428573">
+        <state line="46" column="21" selection-start="620" selection-end="620" vertical-scroll-proportion="0.7641196">
           <folding />
         </state>
       </provider>

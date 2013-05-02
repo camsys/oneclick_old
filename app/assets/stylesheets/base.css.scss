@@ -37,12 +37,14 @@ body {
 
 .actionscontainer li .action {
   @extend .thumbnail;
+  @extend .btn;
   cursor: pointer;
   overflow: auto;
   h3 {
     line-height: 27px;
     margin-left: 105px;
     margin-top: 0px;
+    text-align: left;
   }
   img {
     float: left;
