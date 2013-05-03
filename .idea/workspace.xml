@@ -4,7 +4,6 @@
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.haml" afterPath="$PROJECT_DIR$/app/views/pages/home.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
@@ -14,12 +13,12 @@
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442177623" ignored="false" />
     <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367438913713" ignored="false" />
     <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441775752" ignored="false" />
-    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367551200423" ignored="false" />
+    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367594071549" ignored="false" />
     <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367548703668" ignored="false" />
     <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442746083" ignored="false" />
     <file path="/pages_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441686475" ignored="false" />
     <file path="/application_helper.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442956031" ignored="false" />
-    <file path="/home.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367552455473" ignored="false" />
+    <file path="/home.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367594081519" ignored="false" />
     <file path="/application.html.erb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367547591200" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <file leaf-file-name="home.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5524079">
+            <state line="40" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.68130314">
               <folding />
             </state>
           </provider>
@@ -61,7 +60,7 @@
       <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +69,7 @@
       <file leaf-file-name="base.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+            <state line="63" column="14" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,11 +125,11 @@
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_flash_messages.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
       </list>
@@ -333,6 +332,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../misc/transam-am" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
@@ -563,7 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -717,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="72" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.375">
@@ -738,16 +731,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+        <state line="63" column="14" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5524079">
+        <state line="40" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.68130314">
           <folding />
         </state>
       </provider>

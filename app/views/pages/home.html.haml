@@ -14,23 +14,40 @@
 -#    = image_tag 'Blue_question_mark_icon.png'
 -#    %h3 Help &amp; Support
 
+-#.actionscontainer
+-#  .action
+-#    %a.actionbutton
+-#      = image_tag 'plan-a-trip.png'
+-#      %h3 Plan a Trip
+-#  .action
+-#    %a.actionbutton
+-#      = image_tag 'identify-places.png'
+-#      %h3 Identify Places
+-#  .action
+-#    %a.actionbutton
+-#      = image_tag '100px-Settings_Tile.svg.png'
+-#      %h3 Change My Settings
+-#  .action
+-#    %a.actionbutton
+-#      = image_tag 'Blue_question_mark_icon.png'
+-#      %h3 Help &amp; Support
+
 .row
-  .span6
-    %a.btn.btn-block
-      = image_tag 'plan-a-trip.png'
-      %h3 Plan a Trip
-  .span6
-    %a.btn.btn-block
-      = image_tag 'identify-places.png'
-      %h3 Identify Places
-.row
-  .span12
-.row
-  .span6
-    %a.btn.btn-block
-      = image_tag '100px-Settings_Tile.svg.png'
-      %h3 Change My Settings
-  .span6
-    %a.btn.btn-block
-      = image_tag 'Blue_question_mark_icon.png'
-      %h3 Help &amp; Support
+  .span6.center
+    .row
+      .span3
+        %a.actionbutton
+          = image_tag 'plan-a-trip.png'
+          %p Plan a Trip
+      .span3
+        %a.actionbutton
+          = image_tag 'identify-places.png'
+          %h3 Identify Places
+      .span3
+        %a.actionbutton
+          = image_tag '100px-Settings_Tile.svg.png'
+          %h3 Change My Settings
+      .span3
+        %a.actionbutton
+          = image_tag 'Blue_question_mark_icon.png'
+          %h3 Help &amp; Support

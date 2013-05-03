@@ -45,13 +45,20 @@ body {
 }
 
 .actionscontainer .action {
+  @extend .span3;
+}
+
+//.actionscontainer .actionbutton {
+.actionbutton {
   //@extend .thumbnail;
-  @extend .span6;
   @extend .btn;
+  @extend .btn-large;
+  @extend .btn-primary;
   @extend .btn-block;
   cursor: pointer;
   overflow: auto;
-  h3 {
+  margin-top: 10px;
+  p {
     line-height: 27px;
     margin-left: 110px;
     margin-top: 0px;
@@ -61,5 +68,11 @@ body {
     float: left;
     margin-left: 5px;
   }
+}
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
