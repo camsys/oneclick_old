@@ -1,9 +1,9 @@
 body {
-  @extend .container;
+  //@extend .container;
 }
 
 .content {
-  @include makeRow();
+  @extend .container;
 }
 
 .content .main {
@@ -15,39 +15,51 @@ body {
 }
 
 .content .home {
-  @include makeColumn(12);
+  //@include makeColumn(12);
 }
 
 .actionscontainer {
-  @include makeRow();
+  @extend .row;
 }
 
-.actionscontainer > div {
-  @extend .span6;
-  @extend .offset3;
+.placeholder1 {
+  //margin: 0 auto;
+  //float: none;
+}
+
+.placeholder {
+//.actionscontainer > div {
+//  @extend .span6;
+//  @extend .offset3;
+  //margin: 0 auto;
+  //float: none;
 }
 
 .actionscontainer ul {
-  @extend .thumbnails;
+  //@extend .thumbnails;
+  list-style: none;
 }
 
 .actionscontainer li {
-  @extend .span3;
+  @extend .span6;
 }
 
-.actionscontainer li .action {
-  @extend .thumbnail;
+.actionscontainer .action {
+  //@extend .thumbnail;
+  @extend .span6;
   @extend .btn;
+  @extend .btn-block;
   cursor: pointer;
   overflow: auto;
   h3 {
     line-height: 27px;
-    margin-left: 105px;
+    margin-left: 110px;
     margin-top: 0px;
     text-align: left;
   }
   img {
     float: left;
+    margin-left: 5px;
   }
 }
 

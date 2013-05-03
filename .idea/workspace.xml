@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.haml" afterPath="$PROJECT_DIR$/app/views/pages/home.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,12 +14,12 @@
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442177623" ignored="false" />
     <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367438913713" ignored="false" />
     <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441775752" ignored="false" />
-    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367532251544" ignored="false" />
-    <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442012114" ignored="false" />
+    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367551200423" ignored="false" />
+    <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367548703668" ignored="false" />
     <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442746083" ignored="false" />
     <file path="/pages_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441686475" ignored="false" />
     <file path="/application_helper.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442956031" ignored="false" />
-    <file path="/home.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367529772616" ignored="false" />
+    <file path="/home.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367552455473" ignored="false" />
     <file path="/application.html.erb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367547591200" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-13.125">
+            <state line="26" column="9" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5524079">
               <folding />
             </state>
           </provider>
@@ -68,16 +70,16 @@
       <file leaf-file-name="base.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+            <state line="5" column="20" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="72" selection-start="261" selection-end="261" vertical-scroll-proportion="0.14872521">
+            <state line="7" column="72" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -86,7 +88,7 @@
       <file leaf-file-name="no_sidebar.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.125">
+            <state line="13" column="0" selection-start="298" selection-end="374" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
@@ -127,10 +129,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
       </list>
     </option>
   </component>
@@ -715,20 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
@@ -736,16 +724,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.125">
+        <state line="7" column="72" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="72" selection-start="261" selection-end="261" vertical-scroll-proportion="0.14872521">
+        <state line="13" column="0" selection-start="298" selection-end="374" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5524079">
           <folding />
         </state>
       </provider>
