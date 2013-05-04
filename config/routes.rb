@@ -1,7 +1,14 @@
 Oneclick::Application.routes.draw do
   root to: 'pages#home'
 
-  get "pages/home"
+  resource :pages do
+    member do
+      get 'home'
+    end
+  end
+  #get "pages/home"
+
+  resource :trips
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
