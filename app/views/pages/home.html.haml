@@ -34,20 +34,13 @@
 
 .row
   .span6.center
-    .row
-      .span3
-        %a.actionbutton
-          = image_tag 'plan-a-trip.png'
-          %p Plan a Trip
-      .span3
-        %a.actionbutton
-          = image_tag 'identify-places.png'
-          %h3 Identify Places
-      .span3
-        %a.actionbutton
-          = image_tag '100px-Settings_Tile.svg.png'
-          %h3 Change My Settings
-      .span3
-        %a.actionbutton
-          = image_tag 'Blue_question_mark_icon.png'
-          %h3 Help &amp; Support
+    .row-fluid
+      %ul.thumbnails
+        - @actions.each do |action|
+          %li.span6
+            %a.thumbnail.actionbutton{alt: action[:label], title: action[:label], href: action[:target]}
+              .row-fluid
+                .span6
+                  = image_tag action[:img], alt: action[:label]
+                .span6
+                  %p= action[:label]
