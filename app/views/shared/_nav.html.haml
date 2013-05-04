@@ -1,12 +1,6 @@
--#= nav_bar brand: 'ARC One-Click', responsive: true, fixed: :top do
--#  = menu_group pull: :right do
--#    = menu_item 'Log out', '#'
--#  = menu_text 'Welcome, Eric', pull: :right
-
 .navbar.navbar-fixed-top
   .navbar-inner
     .container
-      -#<!-- Be sure to leave the brand out there if you want it shown -->
       %a.brand{href: '/'}
         = image_tag 'ARCLogo100x.png', alt: 'ARC logo'
         One-Click#{@page_subtitle}
