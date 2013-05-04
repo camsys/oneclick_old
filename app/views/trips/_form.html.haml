@@ -8,6 +8,10 @@
             %li= msg
     = f.input :from, :collection => @trip.owner.places
     = f.input :to, :collection => @trip.owner.places
+    = f.input :trip_time, as: :string
     .actions
       = f.button :submit, {class: 'btn btn-primary controls'}
       = link_to 'Back', :back
+:javascript
+  $('#trip_trip_time').datepicker();
+
