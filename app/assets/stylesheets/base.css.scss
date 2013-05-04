@@ -73,3 +73,7 @@ body {
     li.span1:nth-child(12n + 13) { margin-left : 0px; }
   }
 }
+
+.dropdown-toggle {
+  cursor: pointer;
+}

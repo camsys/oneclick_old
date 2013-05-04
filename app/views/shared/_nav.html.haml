@@ -1,4 +1,27 @@
-= nav_bar brand: 'ARC One-Click', responsive: true, fixed: :top do
-  = menu_group pull: :right do
-    = menu_item 'Log out'
-  = menu_text 'Welcome, Eric', pull: :right
+-#= nav_bar brand: 'ARC One-Click', responsive: true, fixed: :top do
+-#  = menu_group pull: :right do
+-#    = menu_item 'Log out', '#'
+-#  = menu_text 'Welcome, Eric', pull: :right
+
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      -#<!-- Be sure to leave the brand out there if you want it shown -->
+      %a.brand{href: "#"}
+        ARC One-Click
+      -#<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      %a.btn.btn-navbar{data: { toggle: "collapse",  target: ".nav-collapse"}}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      -#<!-- Everything you want hidden at 940px or less, place within here -->
+      .nav-collapse.collapse
+        %ul.nav.pull-right
+          %li.dropdown
+            %a.dropdown-toggle{data: {toggle: 'dropdown', target: '#'}}
+              Welcome, Eric
+              %b.caret
+            %ul.dropdown-menu{role: 'menu'}
+              %li
+                %a{href: '#'}
+                  Log out

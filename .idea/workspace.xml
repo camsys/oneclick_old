@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/100px-Settings_Tile.svg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/Blue_question_mark_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/Blue_question_mark_icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/identify-places.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/plan-a-trip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.haml" afterPath="$PROJECT_DIR$/app/views/pages/home.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367520329632" ignored="false" />
     <file path="/Gemfile" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441502071" ignored="false" />
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631832333" ignored="false" />
-    <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631810150" ignored="false" />
+    <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367633258062" ignored="false" />
     <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441775752" ignored="false" />
-    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367632676449" ignored="false" />
+    <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367635850450" ignored="false" />
     <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367548703668" ignored="false" />
-    <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442746083" ignored="false" />
+    <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367639263565" ignored="false" />
     <file path="/pages_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631933055" ignored="false" />
     <file path="/application_helper.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367442956031" ignored="false" />
     <file path="/home.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631734509" ignored="false" />
@@ -68,10 +59,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="60" selection-start="760" selection-end="760" vertical-scroll-proportion="0.546371">
+            <state line="77" column="17" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nav.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.8411017">
+              <folding>
+                <marker date="1367641611000" expanded="true" signature="929:988" placeholder="%li" />
+                <marker date="1367641611000" expanded="true" signature="949:988" placeholder="%a{href: '#'}" />
+                <marker date="1367641611000" expanded="true" signature="981:988" placeholder="Log out" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +119,6 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_flash_messages.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
@@ -120,6 +132,7 @@
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
       </list>
     </option>
   </component>
@@ -203,6 +216,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,18 +668,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_flash_messages.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.06825939" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="72" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.375">
@@ -1004,10 +1009,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="60" selection-start="760" selection-end="760" vertical-scroll-proportion="0.546371">
+        <state line="77" column="17" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.8411017">
+          <folding>
+            <marker date="1367641611000" expanded="true" signature="929:988" placeholder="%li" />
+            <marker date="1367641611000" expanded="true" signature="949:988" placeholder="%a{href: '#'}" />
+            <marker date="1367641611000" expanded="true" signature="981:988" placeholder="Log out" />
+          </folding>
         </state>
       </provider>
     </entry>
