@@ -6,4 +6,10 @@ class ApplicationController < ActionController::Base
   def page_subtitle
     @page_subtitle = ''
   end
+
+  def current_user
+    # TODO Just a placeholder for now
+    User.first
+  end
+
 end

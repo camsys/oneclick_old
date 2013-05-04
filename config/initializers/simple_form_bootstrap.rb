@@ -42,4 +42,8 @@ SimpleForm.setup do |config|
   # to learn about the different styles for forms and inputs,
   # buttons and other elements.
   config.default_wrapper = :bootstrap
+
+  # TODO Maybe will fix the simple_form/bootstrap problem?  See
+  # https://github.com/plataformatec/simple_form/issues/462
+  config.label_class = 'control-label'
 end

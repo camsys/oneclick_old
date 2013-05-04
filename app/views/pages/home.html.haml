@@ -6,8 +6,8 @@
           %li.span6
             %a.thumbnail.actionbutton{alt: action[:label], title: action[:label], href: action[:target]}
               .row-fluid
-                .span4
+                .span6
                   -#= image_tag action[:img], alt: action[:label]
-                  %i.icon-4x{class: action[:icon], style: "margin-top:5px;", alt: action[:label]}
-                .span8
+                  %i.icon-4x{class: action[:icon], style: "margin-top:5px; font-size: 6.0em;", alt: action[:label]}
+                .span6
                   %p= action[:label]

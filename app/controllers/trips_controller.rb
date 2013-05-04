@@ -25,6 +25,8 @@ class TripsController < ApplicationController
   # GET /trips/new.json
   def new
     @trip = Trip.new
+    # TODO User might be different if we are an agent
+    @trip.owner = current_user
 
     respond_to do |format|
       format.html # new.html.erb
