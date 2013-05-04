@@ -2,6 +2,8 @@ class PagesController < ApplicationController
 
   layout 'no_sidebar'
 
+  before_filter :page_subtitle
+
   def home
     @actions = [
         {label: 'Plan a Trip', target: '#', icon: 'icon-bus-sign'},
