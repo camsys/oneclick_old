@@ -18,54 +18,42 @@ body {
   //@include makeColumn(12);
 }
 
-.actionscontainer {
-  @extend .row;
-}
-
-.placeholder1 {
-  //margin: 0 auto;
-  //float: none;
-}
-
-.placeholder {
-//.actionscontainer > div {
+// Maybe bring these back sometime... didn't work well
+//.actionscontainer {
+//  @extend .row;
+//}
+//
+//.actionscontainer ul {
+//  list-style: none;
+//}
+//
+//.actionscontainer li {
 //  @extend .span6;
-//  @extend .offset3;
-  //margin: 0 auto;
-  //float: none;
-}
+//}
+//
+//.actionscontainer .action {
+//  @extend .span3;
+//}
 
-.actionscontainer ul {
-  //@extend .thumbnails;
-  list-style: none;
-}
-
-.actionscontainer li {
-  @extend .span6;
-}
-
-.actionscontainer .action {
-  @extend .span3;
-}
-
-//.actionscontainer .actionbutton {
 .actionbutton {
-  //@extend .thumbnail;
   @extend .btn;
-  //@extend .btn-large;
-  //@extend .btn-block;
   cursor: pointer;
   overflow: auto;
   margin-top: 10px;
+  min-height: 4.5em;
   p {
-    line-height: 27px;
     margin-top: 0px;
-    text-align: left;
+    text-align: center;
   }
   img {
     float: left;
     margin-right: 5px;
   }
+}
+
+// TODO This should probably be limited to be within actions
+.thumbnails > li {
+  margin-bottom: auto;
 }
 
 .center {

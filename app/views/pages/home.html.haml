@@ -1,37 +1,3 @@
--#.actionscontainer
--#  %a.action
--#    = image_tag 'plan-a-trip.png'
--#    %h3 Plan a Trip
--#  %a.action
--#    = image_tag 'identify-places.png'
--#    %h3 Identify Places
--#.actionscontainer
--#  %a.action
--#    = image_tag '100px-Settings_Tile.svg.png'
--#    %span
--#      %h3 Change My Settings
--#  %a.action
--#    = image_tag 'Blue_question_mark_icon.png'
--#    %h3 Help &amp; Support
-
--#.actionscontainer
--#  .action
--#    %a.actionbutton
--#      = image_tag 'plan-a-trip.png'
--#      %h3 Plan a Trip
--#  .action
--#    %a.actionbutton
--#      = image_tag 'identify-places.png'
--#      %h3 Identify Places
--#  .action
--#    %a.actionbutton
--#      = image_tag '100px-Settings_Tile.svg.png'
--#      %h3 Change My Settings
--#  .action
--#    %a.actionbutton
--#      = image_tag 'Blue_question_mark_icon.png'
--#      %h3 Help &amp; Support
-
 .row
   .span6.center
     .row-fluid
@@ -40,7 +6,8 @@
           %li.span6
             %a.thumbnail.actionbutton{alt: action[:label], title: action[:label], href: action[:target]}
               .row-fluid
-                .span6
-                  = image_tag action[:img], alt: action[:label]
-                .span6
+                .span4
+                  -#= image_tag action[:img], alt: action[:label]
+                  %i.icon-4x{class: action[:icon], style: "margin-top:5px;", alt: action[:label]}
+                .span8
                   %p= action[:label]

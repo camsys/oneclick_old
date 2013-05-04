@@ -15,5 +15,8 @@ body { padding-top: 60px; }
 // And finally bootswatch style itself
 @import "bootswatch/spacelab/bootswatch";
 
+@import "font-awesome";
+@import "font-awesome-ext";
+
 // Whatever application styles you have go last
 @import "base";

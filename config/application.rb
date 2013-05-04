@@ -58,5 +58,8 @@ module Oneclick
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Add Font-Awesome fonts to the path
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
   end
 end

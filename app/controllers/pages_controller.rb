@@ -4,10 +4,10 @@ class PagesController < ApplicationController
 
   def home
     @actions = [
-        {img: 'plan-a-trip.png', label: 'Plan a Trip', target: '#'},
-        {img: 'identify-places.png', label: 'Identify Places', target: '#'},
-        {img: '100px-Settings_Tile.svg.png', label: 'Change My Settings', target: '#'},
-        {img: 'Blue_question_mark_icon.png', label: 'Help & Support', target: '#'},
+        {label: 'Plan a Trip', target: '#', icon: 'icon-bus-sign'},
+        {label: 'Identify Places', target: '#', icon: 'icon-map-marker'},
+        {label: 'Change My Settings', target: '#', icon: 'icon-cog'},
+        {label: 'Help & Support', target: '#', icon: 'icon-question-sign'},
     ]
   end
 
