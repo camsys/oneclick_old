@@ -25,6 +25,7 @@ end
 
 gem 'jquery-rails'
 gem 'haml'
+gem 'haml-rails'
 gem 'simple_form'
 gem 'rails_bootstrap_navbar'
 
