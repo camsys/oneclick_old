@@ -80,4 +80,8 @@ class TripsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def page_subtitle
+    @page_subtitle = '  //  Trip Planner'
+  end
 end
