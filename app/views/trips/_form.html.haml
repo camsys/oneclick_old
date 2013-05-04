@@ -1,4 +1,4 @@
-= form_for @trip do |f|
+= simple_form_for(@trip, :html => {:class => 'form-horizontal' }) do |f|
   - if @trip.errors.any?
     #error_explanation
       %h2= "#{pluralize(@trip.errors.count, "error")} prohibited this trip from being saved:"
