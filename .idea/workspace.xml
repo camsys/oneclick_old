@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/no_sidebar.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oneclick.iml" afterPath="$PROJECT_DIR$/.idea/oneclick.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367520329632" ignored="false" />
-    <file path="/Gemfile" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683101495" ignored="false" />
+    <file path="/Dummy.txt" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683308600" ignored="false" />
+    <file path="/Gemfile" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683344212" ignored="false" />
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631832333" ignored="false" />
-    <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367633258062" ignored="false" />
-    <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367441775752" ignored="false" />
+    <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683426722" ignored="false" />
+    <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683505591" ignored="false" />
     <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367635850450" ignored="false" />
     <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367682274143" ignored="false" />
     <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367682294584" ignored="false" />
@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="16" selection-start="650" selection-end="650" vertical-scroll-proportion="0.6659619">
+            <state line="5" column="16" selection-start="113" selection-end="113" vertical-scroll-proportion="0.15856236">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css" />
@@ -151,6 +150,7 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -216,6 +216,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneclick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneclick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -686,13 +704,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome-social.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.16736402">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome-more-ie7.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.036931816">
@@ -1043,7 +1054,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="650" selection-end="650" vertical-scroll-proportion="0.6659619">
+        <state line="34" column="36" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="113" selection-end="113" vertical-scroll-proportion="0.15856236">
           <folding />
         </state>
       </provider>

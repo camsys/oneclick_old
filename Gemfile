@@ -46,4 +46,5 @@ gem 'unicorn-rails'
 
 group :development do
   gem 'html2haml'
+  gem 'sextant'
 end
