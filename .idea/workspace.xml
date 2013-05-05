@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb" afterPath="$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/new.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oneclick.iml" afterPath="$PROJECT_DIR$/.idea/oneclick.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/trip.rb" afterPath="$PROJECT_DIR$/app/models/trip.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683308600" ignored="false" />
-    <file path="/Gemfile" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683344212" ignored="false" />
+    <file path="/Gemfile" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367722053329" ignored="false" />
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631832333" ignored="false" />
     <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683426722" ignored="false" />
     <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683505591" ignored="false" />
@@ -23,16 +31,16 @@
     <file path="/*.regexp" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631419408" ignored="false" />
     <file path="/application_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683624420" ignored="false" />
     <file path="/trips_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367694216575" ignored="false" />
-    <file path="/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367706989651" ignored="false" />
+    <file path="/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367724000123" ignored="false" />
     <file path="/place.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367693106972" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692170338" ignored="false" />
     <file path="/20130504161949_add_fields_to_trips.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692563040" ignored="false" />
     <file path="/20130504162248_create_places.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692384760" ignored="false" />
-    <file path="/trip.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367701051548" ignored="false" />
+    <file path="/trip.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367723569399" ignored="false" />
     <file path="/user.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692470179" ignored="false" />
-    <file path="/20130504190604_add_fields_to_trips2.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367700934272" ignored="false" />
+    <file path="/20130504190604_add_fields_to_trips2.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367723402984" ignored="false" />
     <file path="/simple_form_bootstrap.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367696423479" ignored="false" />
-    <file path="/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367707022190" ignored="false" />
+    <file path="/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367723977703" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +60,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="trips_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,7 +81,7 @@
       <file leaf-file-name="trip.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="67" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_nav.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.08196721">
+            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -118,16 +117,16 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="163" selection-end="163" vertical-scroll-proportion="-2.5">
+            <state line="4" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="-10.0">
+            <state line="10" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.37593985">
               <folding />
             </state>
           </provider>
@@ -136,7 +135,7 @@
       <file leaf-file-name="20130504190604_add_fields_to_trips2.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130504162248_create_places.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130504161949_add_fields_to_trips.rb" />
         <option value="$PROJECT_DIR$/app/models/place.rb" />
@@ -170,19 +168,21 @@
         <option value="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb" />
         <option value="$PROJECT_DIR$/app/models/trip.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/base.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trips/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1028" />
+    <option name="width" value="1436" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -826,7 +826,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1028" extended-state="6" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -834,12 +834,12 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27604726" sideWeight="0.9932681" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25642595" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30143884" sideWeight="0.6069142" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39948782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39308578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -910,13 +910,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
@@ -948,13 +941,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -994,30 +980,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="67" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="-10.0">
+        <state line="28" column="28" selection-start="679" selection-end="679" vertical-scroll-proportion="0.858156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="163" selection-end="163" vertical-scroll-proportion="-2.5">
+        <state line="4" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.08196721">
+        <state line="10" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.37593985">
           <folding />
         </state>
       </provider>

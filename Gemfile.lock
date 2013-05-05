@@ -112,7 +112,7 @@ GEM
     sextant (0.2.3)
       activesupport (>= 3.2)
       rails (>= 3.2)
-    simple_form (2.1.0)
+    simple_form (2.0.4)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
     sprockets (2.2.2)
@@ -153,6 +153,6 @@ DEPENDENCIES
   rails_bootstrap_navbar
   sass-rails (~> 3.2.3)
   sextant
-  simple_form
+  simple_form (~> 2.0.4)
   uglifier (>= 1.0.3)
   unicorn-rails

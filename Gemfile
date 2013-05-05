@@ -26,7 +26,7 @@ end
 gem 'jquery-rails'
 gem 'haml'
 gem 'haml-rails'
-gem 'simple_form'
+gem 'simple_form', '~> 2.0.4'
 gem 'rails_bootstrap_navbar'
 
 # To use ActiveModel has_secure_password

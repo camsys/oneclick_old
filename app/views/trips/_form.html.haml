@@ -8,10 +8,13 @@
             %li= msg
     = f.input :from, :collection => @trip.owner.places
     = f.input :to, :collection => @trip.owner.places
-    = f.input :trip_time, as: :string
+    = f.input :trip_date, as: :string, label: 'Date'
+    = f.input :arrive_depart, collection: ['Depart at', 'Arrive by'], label: 'Time', include_blank: false
+    = f.input :trip_time, as: :string, label: false
     .actions
       = f.button :submit, {class: 'btn btn-primary controls'}
       = link_to 'Back', :back
 :javascript
-  $('#trip_trip_time').datepicker();
+  $('#trip_trip_date').datepicker();
+  $('#trip_trip_time').timepicker();
 
