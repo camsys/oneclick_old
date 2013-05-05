@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb" afterPath="$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/new.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oneclick.iml" afterPath="$PROJECT_DIR$/.idea/oneclick.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/trip.rb" afterPath="$PROJECT_DIR$/app/models/trip.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +23,7 @@
     <file path="/*.regexp" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631419408" ignored="false" />
     <file path="/application_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683624420" ignored="false" />
     <file path="/trips_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367694216575" ignored="false" />
-    <file path="/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367724000123" ignored="false" />
+    <file path="/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367726887796" ignored="false" />
     <file path="/place.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367693106972" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692170338" ignored="false" />
     <file path="/20130504161949_add_fields_to_trips.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692563040" ignored="false" />
@@ -126,7 +118,16 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.37593985">
+            <state line="18" column="61" selection-start="966" selection-end="966" vertical-scroll-proportion="0.39849624">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tadaaapickr.en.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tadaaapickr.en.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="399" column="33" selection-start="12398" selection-end="12410" vertical-scroll-proportion="-4.923077">
               <folding />
             </state>
           </provider>
@@ -910,13 +911,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
@@ -1015,9 +1009,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tadaaapickr.en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="399" column="33" selection-start="12398" selection-end="12410" vertical-scroll-proportion="-4.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.37593985">
+        <state line="18" column="61" selection-start="966" selection-end="966" vertical-scroll-proportion="0.39849624">
           <folding />
         </state>
       </provider>

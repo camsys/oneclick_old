@@ -8,13 +8,31 @@
             %li= msg
     = f.input :from, :collection => @trip.owner.places
     = f.input :to, :collection => @trip.owner.places
-    = f.input :trip_date, as: :string, label: 'Date'
-    = f.input :arrive_depart, collection: ['Depart at', 'Arrive by'], label: 'Time', include_blank: false
-    = f.input :trip_time, as: :string, label: false
+    = f.input :trip_date, wrapper: :append, label: 'Date' do
+      = content_tag :div, id: 'trip-date' do
+        = f.input_field :trip_date, as: :string, label: false
+        = content_tag :span, class: 'add-on' do
+          = content_tag :i, '', class: 'icon-calendar'
+    = f.input :arrive_depart, collection: ['Depart at', 'Arrive by'], label: false, include_blank: false
+    = f.input :trip_time, wrapper: :append, label: 'Time' do
+      = content_tag :div, id: 'trip-time' do
+        = f.input_field :trip_time, as: :string, label: false
+        = content_tag :span, class: 'add-on' do
+          = content_tag :i, '', class: 'icon-time'
+
     .actions
       = f.button :submit, {class: 'btn btn-primary controls'}
       = link_to 'Back', :back
 :javascript
-  $('#trip_trip_date').datepicker();
-  $('#trip_trip_time').timepicker();
+  $('#trip-date').datepicker()
+    .on("dateChange", function(e) {
+      $('#trip_trip_date').val(Date.format(e.date, "mm/dd/yyyy"));
+    });
+  $('#trip-time').timepicker({
+    'timeFormat': 'g:i a',
+    'scrollDefaultTime': '9:00 am'
+  })
+    .on("changeTime", function(e) {
+      $('#trip_trip_time').val($('#trip-time').data('ui-timepicker-value'));
+    });
 
