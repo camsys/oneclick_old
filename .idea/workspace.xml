@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/new.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/new.html.haml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +32,7 @@
     <file path="/user.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692470179" ignored="false" />
     <file path="/20130504190604_add_fields_to_trips2.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367723402984" ignored="false" />
     <file path="/simple_form_bootstrap.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367696423479" ignored="false" />
-    <file path="/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367723977703" ignored="false" />
+    <file path="/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367729805349" ignored="false" />
     <file path="/oneclick.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367728106735" ignored="false" />
     <file path="/oneclick.rake" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367728295698" ignored="false" />
     <file path="/application.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367729276873" ignored="false" />
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="69" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.82330096">
+            <state line="64" column="69" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="-2.5">
+            <state line="3" column="58" selection-start="211" selection-end="211" vertical-scroll-proportion="0.091649696">
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-10.375">
+            <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -176,11 +176,11 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb" />
         <option value="$PROJECT_DIR$/app/models/trip.rb" />
-        <option value="$PROJECT_DIR$/app/views/trips/new.html.haml" />
         <option value="$PROJECT_DIR$/lib/tasks/oneclick.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/oneclick.rake" />
         <option value="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/views/trips/new.html.haml" />
       </list>
     </option>
   </component>
@@ -830,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tadaaapickr.en.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="399" column="33" selection-start="12398" selection-end="12410" vertical-scroll-proportion="-4.923077">
@@ -847,13 +840,6 @@
     <entry file="file://$PROJECT_DIR$/lib/tasks/oneclick.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-10.375">
           <folding />
         </state>
       </provider>
@@ -883,7 +869,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="69" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.82330096">
+        <state line="64" column="69" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="58" selection-start="211" selection-end="211" vertical-scroll-proportion="0.091649696">
           <folding />
         </state>
       </provider>
