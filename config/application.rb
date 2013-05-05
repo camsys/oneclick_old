@@ -61,5 +61,8 @@ module Oneclick
 
     # Add Font-Awesome fonts to the path
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
+    config.assets.precompile += %w( jquery.timepicker.css tadaaapickr.css )
+
   end
 end
