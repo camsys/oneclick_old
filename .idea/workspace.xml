@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02465852-48dd-49e1-9c6d-3805c3459095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/new.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/new.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/fix-gtfs.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oneclick.iml" afterPath="$PROJECT_DIR$/.idea/oneclick.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneclick.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683308600" ignored="false" />
+    <file path="/Dummy.txt" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1370476055184" ignored="false" />
     <file path="/Gemfile" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367722053329" ignored="false" />
     <file path="/application.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631832333" ignored="false" />
-    <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683426722" ignored="false" />
-    <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683505591" ignored="false" />
+    <file path="/a.dummy" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369686920940" ignored="false" />
+    <file path="/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679240003" ignored="false" />
     <file path="/base.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367706144906" ignored="false" />
     <file path="/no_sidebar.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367682274143" ignored="false" />
     <file path="/_nav.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367707092689" ignored="false" />
     <file path="/pages_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367693842271" ignored="false" />
-    <file path="/application_helper.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367693909007" ignored="false" />
+    <file path="/application_helper.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369537520827" ignored="false" />
     <file path="/home.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367700699975" ignored="false" />
     <file path="/application.html.erb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367547591200" ignored="false" />
     <file path="/font-awesome.css" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631602403" ignored="false" />
@@ -23,7 +26,7 @@
     <file path="/*.regexp" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367631419408" ignored="false" />
     <file path="/application_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367683624420" ignored="false" />
     <file path="/trips_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367694216575" ignored="false" />
-    <file path="/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367728370356" ignored="false" />
+    <file path="/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369689011938" ignored="false" />
     <file path="/place.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367693106972" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692170338" ignored="false" />
     <file path="/20130504161949_add_fields_to_trips.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692563040" ignored="false" />
@@ -32,10 +35,64 @@
     <file path="/user.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367692470179" ignored="false" />
     <file path="/20130504190604_add_fields_to_trips2.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367723402984" ignored="false" />
     <file path="/simple_form_bootstrap.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367696423479" ignored="false" />
-    <file path="/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367729805349" ignored="false" />
+    <file path="/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679700897" ignored="false" />
     <file path="/oneclick.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367728106735" ignored="false" />
     <file path="/oneclick.rake" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367728295698" ignored="false" />
     <file path="/application.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367729276873" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/layouts/_header.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369686506012" ignored="false" />
+    <file path="/_header.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369686505610" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/config/routes.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679240003" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/controllers/admin/contents_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367792352279" ignored="false" />
+    <file path="/contents_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367792352580" ignored="false" />
+    <file path="/_form2.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367796137127" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/contents/_form2.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367796137127" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/assets/javascripts/admin/contents.js.coffee" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367793104884" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/contents/index.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367794138225" ignored="false" />
+    <file path="/index.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369685102159" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/models/content.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367793829107" ignored="false" />
+    <file path="/content.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367793828675" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/images/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1367795784998" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/layouts/_logged_in_header.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679437000" ignored="false" />
+    <file path="/_logged_in_header.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679434976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/helpers/application_helper.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369537520827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/models/composition.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369671898159" ignored="false" />
+    <file path="/composition.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369671898159" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/compositions/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369689011938" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/controllers/composers_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679172465" ignored="false" />
+    <file path="/composers_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679172465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/composers/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369678159829" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/composers/index.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369683106221" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/models/account.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369680349532" ignored="false" />
+    <file path="/account.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369680349532" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/assets/stylesheets/custom.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369677609349" ignored="false" />
+    <file path="/custom.css.scss" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369677608982" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/layouts/application.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369677779632" ignored="false" />
+    <file path="/application.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369677770178" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/models/composer.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369688981895" ignored="false" />
+    <file path="/composer.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369688980252" ignored="false" />
+    <file path="/images_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679307224" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/controllers/admin/images_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679308602" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/controllers/admin/accounts_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369682430686" ignored="false" />
+    <file path="/accounts_controller.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369682423617" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/accounts/index.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369681978550" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/accounts/new.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369679701266" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/accounts/_form.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369682012940" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/accounts/show.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369683449768" ignored="false" />
+    <file path="/show.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369683432098" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/admin/accounts/edit.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369682457267" ignored="false" />
+    <file path="/edit.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369686344123" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/composers/_index_table.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369683640262" ignored="false" />
+    <file path="/_index_table.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369683640262" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/assets/javascripts/composers.js.coffee" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369684393119" ignored="false" />
+    <file path="/composers.js.coffee" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369684211445" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/users/index.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369685119363" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/assets/javascripts/users.js.coffee" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369685159384" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/app/views/devise/registrations/edit.html.haml" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369686344123" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../zmx/zmx2/chef-repo/cookbooks/zmx_app/recipes/default.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1369686945862" ignored="false" />
+    <file path="/fix-gtfs.rb" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1370463810285" ignored="false" />
+    <file path="/merge.sh" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1370469431264" ignored="false" />
+    <file path="$USER_HOME$/constantorbit/workspace/constantorbit.com/index.htm" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1370480459344" ignored="false" />
+    <file path="/index.htm" changelist="02465852-48dd-49e1-9c6d-3805c3459095" time="1370480459344" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +121,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="font-awesome.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fix-gtfs.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/fix-gtfs.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merge.sh" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script/merge.sh">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.36984354">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,31 +178,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trip.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="58" selection-start="211" selection-end="211" vertical-scroll-proportion="0.091649696">
+            <state line="3" column="58" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,25 +190,7 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-15.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oneclick.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/oneclick.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tadaaapickr.en.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tadaaapickr.en.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="399" column="33" selection-start="12398" selection-end="12410" vertical-scroll-proportion="-4.923077">
+            <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,8 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
@@ -181,6 +237,8 @@
         <option value="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/trips/new.html.haml" />
+        <option value="$PROJECT_DIR$/script/fix-gtfs.rb" />
+        <option value="$PROJECT_DIR$/script/merge.sh" />
       </list>
     </option>
   </component>
@@ -217,6 +275,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +291,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oneclick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneclick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneclick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,135 +350,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trips" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oneclick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../misc/transam-am" />
+    <property name="last_opened_file_path" value="$USER_HOME$/constantorbit/workspace/constantorbit.com" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
@@ -560,7 +516,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -668,11 +624,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: oneclick" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: oneclick" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.trip" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.trip" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: oneclick" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: oneclick" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -691,16 +647,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752881" sideWeight="0.9932681" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30143884" sideWeight="0.7247119" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25683454" sideWeight="0.7247119" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39948782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39308578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -708,9 +662,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752881" sideWeight="0.9932681" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39948782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -774,88 +730,70 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="24" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="81" column="24" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.875">
+        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tadaaapickr.en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="399" column="33" selection-start="12398" selection-end="12410" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/oneclick.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="679" selection-end="679" vertical-scroll-proportion="0.858156">
+        <state line="10" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb">
+    <entry file="file://$PROJECT_DIR$/script/fix-gtfs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/script/merge.sh">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tadaaapickr.en.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="33" selection-start="12398" selection-end="12410" vertical-scroll-proportion="-4.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/oneclick.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="23" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.36984354">
           <folding />
         </state>
       </provider>
@@ -874,16 +812,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-15.0">
+        <state line="3" column="58" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/trips/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="211" selection-end="211" vertical-scroll-proportion="0.091649696">
+        <state line="24" column="23" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130504190604_add_fields_to_trips2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
